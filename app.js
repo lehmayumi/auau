@@ -4,13 +4,13 @@ document.addEventListener('DOMContentLoaded', function () {
   var map = L.map('map').setView([-23.52772015578366, -46.66783567505396], 13);
 
 
- // Add a tile layer to the map from OpenStreetMap
+  // Add a tile layer to the map from OpenStreetMap
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
  
   var greenIcon = L.icon({
-    iconUrl: 'https://artpoin.com/wp-content/uploads/2023/07/artpoin-coracoes-fundo-transparente-png2.png',
+    iconUrl: 'https://png.pngtree.com/thumb_back/fh260/background/20220215/pngtree-dog-homeless-abandoned-outside-carrier-puppy-photo-image_35208624.jpg',
  
     iconSize:     [80, 60], // size of the icon
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
@@ -19,12 +19,12 @@ document.addEventListener('DOMContentLoaded', function () {
  
   // Create a marker with popup and add it to the map
   var marker = L.marker([-23.52772015578366, -46.66783567505396]).addTo(map);
-  marker.bindPopup("dia especial").openPopup();
+  marker.bindPopup("namoradinhos !").openPopup();
  
  
   
     // Create a marker with popup and add it to the map
   var marker2 = L.marker([-23.52772015578366, -46.66783567505396], {icon: greenIcon}).addTo(map);
-  marker2.bindPopup("dia especial").openPopup();
+  marker2.bindPopup("namoradinhos !").openPopup();
  
 });
