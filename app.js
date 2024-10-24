@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
   var greenIcon = L.icon({
-    iconUrl: 'https://artpoin.com/wp-content/uploads/2023/07/artpoin-coracoes-fundo-transparente-png2.png',
+    iconUrl: 'https://png.pngtree.com/png-clipart/20230514/original/pngtree-smile-dog-on-white-background-png-image_9160783.png',
  
     iconSize:     [80, 60], // size of the icon
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
