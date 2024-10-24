@@ -22,3 +22,8 @@ document.addEventListener('DOMContentLoaded', function () {
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
 });
+
+  // Create a marker with popup and add it to the map
+  var marker = L.marker([-23.52772015578366, -46.66783567505396]).addTo(map);
+  marker.bindPopup("dia especial!").openPopup();
+});
