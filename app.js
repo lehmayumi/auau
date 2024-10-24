@@ -1,7 +1,7 @@
 // Wait for the document to be ready
 document.addEventListener('DOMContentLoaded', function () {
   // Create a map instance and set the initial view coordinates and zoom level
-  var map = L.map('map').setView(-23.52772015578366, -46.66783567505396], 13);
+  var map = L.map('map').setView([-23.52772015578366, -46.66783567505396], 13);
 
 
   // Add a tile layer to the map from OpenStreetMap
