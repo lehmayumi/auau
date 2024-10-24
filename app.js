@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
   var greenIcon = L.icon({
-    iconUrl: 'https://static.vecteezy.com/system/resources/thumbnails/016/761/881/small_2x/the-dog-smiles-because-he-is-happy-png.png',
+    iconUrl: 'https://artpoin.com/wp-content/uploads/2023/07/artpoin-coracoes-fundo-transparente-png2.png',
  
     iconSize:     [80, 60], // size of the icon
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
