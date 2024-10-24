@@ -1,4 +1,4 @@
-// Wait for the document to be ready
+pecial// Wait for the document to be ready
 document.addEventListener('DOMContentLoaded', function () {
   // Create a map instance and set the initial view coordinates and zoom level
   var map = L.map('map').setView([-23.52772015578366, -46.66783567505396], 13);
@@ -25,6 +25,6 @@ document.addEventListener('DOMContentLoaded', function () {
   
     // Create a marker with popup and add it to the map
   var marker2 = L.marker([-23.52772015578366, -46.66783567505396], {icon: greenIcon}).addTo(map);
-  marker2.bindPopup("Amada turma de DMD, eu me perdi aqui").openPopup();
+  marker2.bindPopup("dia especial").openPopup();
  
 });
