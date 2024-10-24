@@ -14,3 +14,11 @@ document.addEventListener('DOMContentLoaded', function () {
   var marker = L.marker([-23.52772015578366, -46.66783567505396]).addTo(map);
   marker.bindPopup("dia especial!").openPopup();
 });
+
+  var greenIcon = L.icon({
+    iconUrl: 'https://pt.pngtree.com/freepng/pomeranian-dog-ai-generated_13162300.html',
+ 
+    iconSize:     [80, 60], // size of the icon
+    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+});
